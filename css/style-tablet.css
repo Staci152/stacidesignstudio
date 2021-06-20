@@ -1,0 +1,208 @@
+@media only screen and (max-width: 768px) and (min-width: 600px) {
+    /* For tablet: */
+    .container {
+        min-width: 601px;
+        max-width: 768px;
+    }
+    /*hero*/
+    .hero {
+        background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("/images/PNG/blackcolour-tablet.png");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    /*wrapper*/
+    /*grid wrapper*/
+    .wrapper-brand {
+        grid-template-areas: "section-title" "identity" "manifesto" "personality"
+    }
+    .section-title {
+        grid-area: 1 / 1 / span 2 / span 12;
+    }
+    .identity {
+        grid-area: 3 / 1 / span 8 / span 12;
+    }
+    .manifesto {
+        grid-area: 12 / 1 / span 8 / span 12;
+    }
+    .personality {
+        grid-area: 20 / 1 / span 8 / span 12;
+    }
+    .wrapper-services {
+        grid-template-areas: "section-title" "webdesign" "animation" "illustration" "photography" "branding" "socialmedia"
+    }
+    .section-title-services {
+        grid-area: 1 / 1 / span 2 / span 12;
+    }
+    .webdesign {
+        grid-area: 3 / 1 / span 4 / span 12;
+    }
+    .animation {
+        grid-area: 7 / 1 / span 4 / span 12;
+    }
+    .illustration {
+        grid-area: 11 / 1 / span 4 / span 12;
+    }
+    .photography {
+        grid-area: 15 / 1 / span 4 / span 12;
+    }
+    .branding {
+        grid-area: 19 / 1 / span 4 / span 12;
+    }
+    .socialmedia {
+        grid-area: 23 / 1 / span 4 / span 12;
+    }
+    .wrapper-about {
+        grid-template-areas: "section-title" "abouttext" "aboutimg"
+    }
+    .section-title {
+        grid-area: 1 / 1 / span 2 / span 12;
+    }
+    .aboutimg {
+        grid-area: 3 / 1 / span 1 / span 12;
+    }
+    .abouttext {
+        grid-area: 7 / 1 / span 1 / span 12;
+    }
+    .wrapper-skills {
+        grid-template-areas: "section-title" "skillstext1" "skillsimg" "skillstext2"
+    }
+    .section-title {
+        grid-area: 1 / 1 / span 2 / span 12;
+    }
+    .skillstext1 {
+        grid-area: 3 / 1 / span 4 / span 12;
+    }
+    .skillsimg {
+        grid-area: 7 / 1 / span 4 / span 12;
+    }
+    .skillstext2 {
+        grid-area: 11 / 1 / span 4 / span 12;
+    }
+    .wrapper-progress {
+        grid-template-areas: "progressbar-left" "progressbar-right"
+    }
+    .progressbar-left {
+        grid-area: 1 / 2 / span 3 / span 10;
+    }
+    .progressbar-right {
+        grid-area: 5 / 2 / span 3 / span 10;
+    }
+    .wrapper-facts {
+        grid-template-areas: "section-title" "factsvideo" "factstext"
+    }
+    .section-title {
+        grid-area: 1 / 1 / span 2 / span 12;
+    }
+    .factsvideo {
+        grid-area: 1 / 2 / span 3 / span 10;
+    }
+    .factstext {
+        grid-area: 5 / 2 / span 3 / span 10;
+    }
+    .wrapper-facts {
+        grid-template-areas: "section-title" "factsvideo factstext"
+    }
+    .section-title {
+        grid-area: 1 / 1 / span 2 / span 12;
+    }
+    .factsvideo {
+        grid-area: 3 / 1 / span 15 / span 12;
+    }
+    .factstext {
+        grid-area: 18 / 1 / span 3 / span 12;
+    }
+    .wrapper-work {
+        grid-template-areas: "section-title" "card1 card2 card3" "worktext"
+    }
+    .section-title {
+        grid-area: 1 / 1 / span 2 / span 12;
+    }
+    .card1 {
+        grid-area: 3 / 2 / span 8 / span 5;
+    }
+    .card2 {
+        grid-area: 3 / 7 / span 8 / span 5;
+    }
+    .card3 {
+        grid-area: 11 / 2 / span 8 / span 5;
+    }
+    .worktext {
+        grid-area: 11 / 7 / span 2 / span 5;
+    }
+    .wrapper-portfolio {
+        grid-template-areas: "section-title" "portfolio"
+    }
+    .section-title {
+        grid-area: 1 / 1 / span 2 / span 12;
+    }
+    .porfolio {
+        grid-area: 3 / 1 / span 8 / span 8;
+    }
+    .wrapper-form {
+        grid-template-areas: "section-title" "contactme-phone" "contactme-social" "contactme-email" "contactform"
+    }
+    .section-title {
+        grid-area: 1 / 1 / span 2 / span 12;
+    }
+    .contactme-phone {
+        grid-area: 3 / 2 / span 1 / span 11;
+    }
+    .contactme-social {
+        grid-area: 4 / 2 / span 1 / span 11;
+    }
+    .contactme-email {
+        grid-area: 5 / 2 / span 1 / span 11;
+    }
+    .contactform {
+        grid-area: 6 / 2 / span 2 / span 11;
+    }
+    .pre-footer {
+        grid-area: 65 / 1 / span 6 / span 12;
+    }
+    .footer {
+        grid-area: 71 / 1 / span 1 / span 12;
+    }
+    /*logo*/
+    .header .logo img {
+        max-height: 50px;
+    }
+    nav #menu {
+        display: none;
+    }
+    /*--hero--*/
+    .hero-title h1 {
+        font-weight: 500;
+        font-size: 3rem;
+    }
+    .hero-title h2 {
+        font-weight: 200;
+        font-size: 3rem;
+    }
+    .hero-title p {
+        font-weight: 100;
+        font-size: 1.5rem;
+    }
+    /*--portfolio gallery--*/
+    .portfolio .container {
+        display: block;
+        overflow-wrap: normal;
+        max-width: 768px;
+        margin: auto;
+    }
+    .portfolio .container li {
+        float: left;
+        height: auto;
+        list-style: none outside none;
+        margin: 10px;
+        position: relative;
+        overflow: hidden;
+    }
+    .portfolio .container ul.hidden {
+        display: none;
+    }
+    /*--pre footer--*/
+    .cta h3 {
+        font-size: 28px;
+        width: 100%;
+    }
+}

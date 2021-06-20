@@ -1,0 +1,15 @@
+<svg id="Icons_Social_Twitter_Colour" data-name="Icons / Social / Twitter / Colour" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Clip_2" data-name="Clip 2" d="M0,0H20V16.027H0Z" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Oval" fill="#f4a288" stroke="#231f20" stroke-miterlimit="10" stroke-width="1.5">
+    <circle cx="16" cy="16" r="16" stroke="none"/>
+    <circle cx="16" cy="16" r="15.25" fill="none"/>
+  </g>
+  <path id="Clip_2-2" data-name="Clip 2" d="M0,0H20.981V16.812H0Z" transform="translate(6 8)" fill="none"/>
+  <g id="Group_3" data-name="Group 3" transform="translate(6 8)" clip-path="url(#clip-path)">
+    <path id="Fill_1" data-name="Fill 1" d="M20,1.9a8.273,8.273,0,0,1-2.356.637A4.057,4.057,0,0,0,19.447.3a8.24,8.24,0,0,1-2.606.98A4.12,4.12,0,0,0,13.846,0a4.075,4.075,0,0,0-4.1,4.046,3.913,3.913,0,0,0,.106.921A11.7,11.7,0,0,1,1.392.74a4.014,4.014,0,0,0,1.27,5.4,4.146,4.146,0,0,1-1.86-.5v.05A4.061,4.061,0,0,0,4.1,9.654,4.068,4.068,0,0,1,3.013,9.8a4.118,4.118,0,0,1-.771-.072,4.1,4.1,0,0,0,3.833,2.808,8.308,8.308,0,0,1-5.1,1.733A8.536,8.536,0,0,1,0,14.21a11.751,11.751,0,0,0,6.29,1.817A11.509,11.509,0,0,0,17.965,4.516c0-.176,0-.352-.012-.523A8.266,8.266,0,0,0,20,1.9Z" transform="translate(0 0)" fill="#231f20"/>
+  </g>
+</svg>

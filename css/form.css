@@ -1,0 +1,75 @@
+/*-------------------------------------
+contact form
+--------------------------------------*/
+
+input[type=text],
+select,
+textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    width: 80%;
+    font-family: "Open Sans", sans-serif;
+    float: left;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 5px;
+    border: 2px solid #f4a288;
+    color: #fff;
+    background-color: #f4a288;
+}
+
+input[type=submit]:hover {
+    background: #281f20;
+    border: 2px solid #f4a288;
+    color: #f4a288;
+}
+
+.form .container {
+    position: relative;
+    width: 380px;
+    height: 550px;
+    margin: 20px;
+    align-content: center;
+    align-items: center;
+}
+
+.well-form {
+    width: 300px;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-left: -150px;
+}
+
+.well-form h3 {
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.error {
+    border-color: #ff4242;
+    box-shadow: 0 0 6px rgba(255, 66, 66, 0.8);
+}
+
+.validation {
+    color: #ff4242;
+    font-style: italic;
+    font-size: 14px;
+    display: none;
+}
