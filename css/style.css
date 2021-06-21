@@ -406,7 +406,7 @@ hero
 
 .hero {
     background: #393637;
-    background: url('/images/PNG/Black-back.png') center center no-repeat;
+    background: url('/images/PNG/blackcolour-mobile.png') center center no-repeat;
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("/images/PNG/blackcolour-mobile.png");
     background-size: cover;
     background-attachment: fixed;

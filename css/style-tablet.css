@@ -6,6 +6,7 @@
     }
     /*hero*/
     .hero {
+        background: url('/images/PNG/blackcolour-tablet.png') center center no-repeat; 
         background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("/images/PNG/blackcolour-tablet.png");
         background-size: cover;
         background-attachment: fixed;
