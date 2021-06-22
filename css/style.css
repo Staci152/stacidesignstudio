@@ -406,14 +406,12 @@ hero
 
 .hero {
     background: #393637;
-    background: url('/images/JPG/blackcolour-mobile.jpg') center center no-repeat;
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("/images/PNG/blackcolour-mobile.png");
-    
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("/images/JPG/blackcolour1-mobile.jpg");
     background-attachment: fixed;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    height: calc(80vh - 70px);
+    height: calc(70vh - 70px);
     display: flex;
     justify-content: center;
     align-items: flex-end;
