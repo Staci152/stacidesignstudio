@@ -1296,6 +1296,22 @@ footer
         align-items: center;
         justify-content: flex-end;
     }
+    .cta {
+        background: linear-gradient(rgba(111, 113, 171, 0.9), rgba(244, 162, 136, 0.5)), url("/images/JPG/cta-bg.jpg") fixed center center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 120px 0;
+        display: flex;
+        color: #fff;
+    }
+    
+    .cta-box {
+        display: block;
+        align-self: center;
+        margin: auto;
+        width: auto;
+    }
     /*--portfolio--*/
     .portfolio .container ul {
         padding: auto;
@@ -1304,6 +1320,7 @@ footer
     .footer {
         padding-top: 20px;
         padding-bottom: 20px;
+        font-size: 11px;
     }
     .footer .copyright {
         text-align: center;
