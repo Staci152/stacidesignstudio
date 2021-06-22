@@ -48,7 +48,7 @@
      }
      /*hero*/
      .hero {
-         background: url('/images/PNG/blackcolour-desktop.png') center center no-repeat; 
+         background: url('/images/JPG/blackcolour-desktop.jpg') center center no-repeat; 
          background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("/images/PNG/blackcolour-desktop.png");
          background-size: cover;
          background-attachment: fixed;
