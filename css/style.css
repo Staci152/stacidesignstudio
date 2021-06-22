@@ -406,7 +406,7 @@ hero
 
 .hero {
     background: #393637;
-    background: url('/images/PNG/blackcolour-mobile.png') center center no-repeat;
+    background: url('/images/PNG/blackcolour-desktop.png') center center no-repeat;
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("/images/PNG/blackcolour-mobile.png");
     background-size: cover;
     background-attachment: fixed;
@@ -1295,22 +1295,6 @@ footer
         display: flex;
         align-items: center;
         justify-content: flex-end;
-    }
-    .cta {
-        background: linear-gradient(rgba(111, 113, 171, 0.9), rgba(244, 162, 136, 0.5)), url("/images/JPG/cta-bg.jpg") fixed center center;
-        background-attachment: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-        padding: 120px 0;
-        display: flex;
-        color: #fff;
-    }
-    
-    .cta-box {
-        display: block;
-        align-self: center;
-        margin: auto;
-        width: auto;
     }
     /*--portfolio--*/
     .portfolio .container ul {
